@@ -1,0 +1,290 @@
+@media (max-width: 1400px) {
+  .info p h1 {
+    font-size: 16px;
+  }
+  .my-skills,
+  .proyects,
+  .Form {
+    width: 85%;
+  }
+  .about-me {
+    width: 85%;
+  }
+  form{
+    width: 60%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .info p h1 {
+    font-size: 18px;
+  }
+  .my-skills,
+  .proyects,
+  .Form {
+    width: 85%;
+  }
+  .about-me {
+    width: 85%;
+  }
+  
+}
+
+@media (max-width: 1240px) {
+  .info {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .info-cv p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .my-skills{
+    height: 630px;
+  }
+  .container-skills {
+    grid-template-columns: repeat(6, 90px);
+    grid-template-rows: repeat(auto, 90px);
+  }
+}
+
+@media (max-width: 1120px) {
+  .presentation {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1030px) {
+  .my-skills,
+  .proyects,
+  .Form {
+    width: 90%;
+  }
+  .about-me {
+    width: 90%;
+    height: 400px;
+  }
+  .my-logo {
+    display: none;
+  }
+  .cv {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .title-cv {
+    height: 20%;
+    border-bottom: 3px solid #101231;
+  }
+  .info-cv {
+    height: 55%;
+    padding: 30px 0;
+  }
+  .button-dowload {
+    height: 25%;
+  }
+  form{
+    width: 90%;
+  }
+}
+@media (max-width: 930px) {
+  .container-skills {
+    gap: 45px;
+    grid-template-columns: repeat(6, 85px);
+    grid-template-rows: repeat(auto, 85px);
+  }
+  .icon{
+    width: 85px;
+    height: 85px;
+  }
+}
+
+@media (max-width: 900px) {
+  .presentation {
+    width: 100%;
+  }
+
+  .info p h1 span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 870px) {
+  .container-skills {
+    gap: 40px;
+    grid-template-columns: repeat(6, 75px);
+    grid-template-rows: repeat(auto, 75px);
+  }
+  .icon{
+    width: 75px;
+    height: 75px;
+  }
+  form{
+    width: 90%;
+  }
+}
+
+@media (max-width: 780px) {
+  .container-skills {
+    gap: 40px;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(auto, 80px);
+  }
+  .icon{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 720px) {
+  nav ul li button {
+    font-size: 22px;
+  }
+  .icon {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+@media (max-width: 700px) {
+  .info-cv p {
+    font-size: 18px;
+  }
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+  .container-skills{
+    gap: 35px;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(auto, 80px);
+  }
+}
+
+@media (max-width: 670px) {
+  nav ul li button {
+    font-size: 20px;
+  }
+  .about-me {
+    height: 460px;
+  }
+  form{
+    width: 90%;
+  }
+  }
+
+@media (max-width: 650px) {
+  .about-me {
+    width: 95%;
+  }
+  .my-skills {
+    width: 95%;
+  }
+}
+
+@media (max-width: 620px) {
+  nav ul li button {
+    font-size: 19px;
+  }
+  .about-me {
+    height: 480px;
+  }
+  .info-cv p {
+    font-size: 19px;
+  }
+  .button-dowload {
+    margin: 10px 0 0 0;
+  }
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+  .container-skills{
+    gap: 35px;
+    grid-template-columns: repeat(5, 70px);
+    grid-template-rows: repeat(auto, 70px);
+  }
+}
+
+@media (max-width: 590px) {
+  nav ul li button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 570px) {
+  .info p h1 span {
+    font-size: 18px;
+  }
+  nav ul li button {
+    font-size: 17px;
+  }
+  .button-dowload {
+    margin: 20px 0 0 0;
+  }
+.my-skills{
+    height: 600px;
+}
+  .icon {
+    width: 65px;
+    height: 65px;
+  }
+  .container-skills{
+    gap: 30px;
+    grid-template-columns: repeat(5, 65px);
+    grid-template-rows: repeat(auto, 65px);
+  }
+}
+
+@media (max-width: 545px) {
+  nav ul li button {
+    font-size: 16px;
+  }
+  .about-me {
+    height: 495px;
+  }
+  
+}
+
+@media (max-width: 520px) {
+  nav ul li button {
+    font-size: 15px;
+  }
+  .ul-header {
+    gap: 40px;
+  }
+  .info p h1 span {
+    font-size: 16px;
+  }
+  .about-me {
+    height: 505px;
+  }
+  .button-dowload {
+    margin: 25px 0 0 0;
+  }
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+  .container-skills{
+    gap: 30px;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(auto, 60px);
+  }
+}
+
+@media (max-width: 500px) {
+  .info-cv p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+}
