@@ -11,7 +11,7 @@ function writeText() {
     i = 0;
   }
 }
-setInterval(writeText, 150);
+setInterval(writeText, 200);
 
 let github = document.getElementById("github");
 let linkedin = document.getElementById("linkedin");

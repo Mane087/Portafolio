@@ -37,8 +37,7 @@
                 <div class="name">
                     <h1 id="typing">¡Hi my name es Emmanuel!</h1>
                 </div>
-                <p>I´m a <span>full stack developer</span>, a technology lover</p>
-                <p>I´m a computer engineer creator of pages, applications and websites</p>
+                <p>Full-stack developer, technology lover</p>
             </div>
         </div>
 
@@ -54,7 +53,7 @@
             </div>
             <div class="cv">
                 <div class="title-cv">
-                    <h1>About me</h1>
+                    <h1>ABOUT ME</h1>
                 </div>
                 <div class="info-cv">
                     <p>I am a highly motivated and passionate Full-Stack developer with a strong focus on creating
@@ -94,7 +93,7 @@
 
         <div class="my-skills" id="my-skills-section">
             <div class="title">
-                <h1> MY SKILLS</h1>
+                <h1>SKILLS</h1>
             </div>
             <div class="skills">
                 <div class="container-skills">
@@ -186,7 +185,7 @@
 </body>
 <script>
     const btn = document.getElementById('send');
-    const nombre = document.getElementById('name'); 
+    const nombre = document.getElementById('name');
     const email = document.getElementById('email');
     const mensaje = document.getElementById('message');
 
@@ -202,7 +201,7 @@
             emailjs.sendForm(serviceID, templateID, this)
                 .then(() => {
                     alert('Mensaje enviado');
-                    nombre.value = '';  
+                    nombre.value = '';
                     email.value = '';
                     mensaje.value = '';
                 }, (err) => {

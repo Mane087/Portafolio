@@ -122,14 +122,10 @@ h1 {
 }
 
 .info p {
-  font-size: 20px;
+  font-size: 24px;
 }
 
-span {
-  font-size: 18px;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
+
 
 main {
   width: 100%;
@@ -184,7 +180,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
   color: #13161e;
 }
 
@@ -204,15 +200,15 @@ main {
 
 .button-dowload {
   width: 100%;
-  height: 20%;
+  height: 25%;
   display: flex;
   justify-content: center;
   padding: 10px 0;
 }
 
 .button {
-  width: min-content;
-  height: min-content;
+  width: max-content;
+  height: max-content;
 }
 
 .download-button {
@@ -281,55 +277,15 @@ main {
 }
 
 .icon {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   display: inline-block;
-  animation: float 5s ease-in-out infinite;
-}
-
-.html,
-.node,
-.git {
-  animation-delay: 1s;
-}
-.css,
-.net,
-.mariaBD {
-  animation-delay: 2s;
-}
-.js,
-.c,
-.sqlServer {
-  animation-delay: 3s;
-}
-.type,
-.spring,
-.mongodb {
-  animation-delay: 4s;
-}
-.java,
-.bootstrap,
-.mysql {
-  animation-delay: 5s;
-}
-/* .spring,
-.nodejs {
-  animation-delay: 6s;
-} */
-
-.sass,
-.vue{
-  animation-delay: 7s;
-}
-
-.tailwind,
-.react{
-  animation-delay: 8s;
 }
 
 .container-skills div img {
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 .title {
